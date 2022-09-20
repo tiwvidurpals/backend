@@ -3,7 +3,7 @@ var app = express();
 var cors = require('cors');
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
-mongoose.connect("mongodb://0.0.0.0:27017/constructionsite?authMechanism=DEFAULT");
+mongoose.connect("mongodb+srv://vidut:1234abcd@cluster0.fwtncgp.mongodb.net/?retryWrites=true&w=majority");
 let jwt = require('jsonwebtoken');
 
 var enquiry = require('./models/enquiry.js');
