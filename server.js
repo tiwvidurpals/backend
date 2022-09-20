@@ -104,7 +104,7 @@ app.post('/register', (req, res) => {
 //app.get('/', (req, res) => { res.send('Hello World') });
 
 
-const PORT = process.env.port || 2000;
+const PORT = process.env.PORT || 2000;
 app.listen(PORT, err => {
     if (err) throw err;
     console.log('Server running at port ' + PORT);
